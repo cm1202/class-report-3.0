@@ -82,6 +82,7 @@ public:
     */
    enum {
       DATA_REG = 0 /**< output data register */
+      SPEED_REG = 1
    };
    /**
     * constructor.
@@ -253,3 +254,4 @@ private:
 
 
 #endif  // _GPIO_H_INCLUDED
+
